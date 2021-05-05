@@ -45,7 +45,7 @@ def user_invitation(msg):
         sender_email = "paritosh.upadhyay008@gmail.com"  # Enter your address
         receiver_email = ['u.paritosh14@gmail.com', 'paritosh.upadhyay008@gmail.com']
         SUBJECT = "Vaccine available slot."
-        INVITATION_SENDER_PASS = "p@r!to$h_1111"
+        INVITATION_SENDER_PASS = ""
 
         message = MIMEMultipart("alternative")
         message["Subject"] = SUBJECT
